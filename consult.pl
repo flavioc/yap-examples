@@ -1,0 +1,2 @@
+
+:- consult(a), consult(b).
