@@ -20,4 +20,4 @@ a(50).
 a(X) :- t(A, X).
 
 debug_query :- t(X, Y), write((X, Y)), nl, fail.
-
+:- debug_query.

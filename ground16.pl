@@ -17,3 +17,4 @@ a(1). a(2). a(3).
 b(5). b(6). b(7).
 
 debug_query :- p(1, A), a(B), b(C), p(D, E), write((A,B,C,D,E)), nl, fail. 
+:- debug_query.
